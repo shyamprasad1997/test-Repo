@@ -1,0 +1,10 @@
+name: Autotrader Client Runner
+run-name: ${{ github.actor }} is running AT client
+on: 
+  schedule:
+    - cron: '*/5 * * * *'
+jobs:
+  trade:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'test run'
