@@ -5,10 +5,4 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          cd ..
-          ls ${{ github.workspace }}
-          pwd
-      - run: |
-          cd ..
-          ${{ github.workspace }}/client
+      - run: ls
