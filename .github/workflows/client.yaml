@@ -5,4 +5,5 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-      - run: ../client
+      - run: ls -A
+      - run: pwd
