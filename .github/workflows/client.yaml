@@ -1,6 +1,6 @@
 name: Autotrader Client Runner
 run-name: ${{ github.actor }} is running AT client
-on: workflow_dispatch
+on: [push]
 jobs:
   test_schedule:
     runs-on: ubuntu-latest
