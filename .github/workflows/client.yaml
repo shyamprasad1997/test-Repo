@@ -6,5 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
+          cd ..
           ls ${{ github.workspace }}
       - run: ${{ github.workspace }}/client
