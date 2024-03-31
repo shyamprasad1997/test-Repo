@@ -5,5 +5,5 @@ jobs:
   test_schedule:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: uses: actions/checkout@v4
       - run: build/client
