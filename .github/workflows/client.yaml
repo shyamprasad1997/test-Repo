@@ -9,4 +9,6 @@ jobs:
           cd ..
           ls ${{ github.workspace }}
           pwd
-      - run: ${{ github.workspace }}/client
+      - run: |
+          cd ..
+          ${{ github.workspace }}/client
